@@ -1,0 +1,42 @@
+body
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    height: 60vh;
+    width: 60vw;
+    overflow: hidden;
+}
+.inner
+{
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+#login_page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login_page h1
+{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+#login_page input 
+{
+    width: 80%;
+    height: 8%;
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+}
